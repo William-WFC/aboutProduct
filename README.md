@@ -1,1 +1,1 @@
-# aboutProduct
+# 这是编程练习用的项目
