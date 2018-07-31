@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  'use strict'
+
+  var obj = {name: 'mirok'};
+  alert(obj.name);
+
+  function demo2(obj) {
+    obj.name = 'july';
+    obj = new Object();
+    obj.name = 'deny';
+    alert(obj.name);
+  }
+
+  demo2(obj);
+  alert(obj.name);
+</script>
+</html>
